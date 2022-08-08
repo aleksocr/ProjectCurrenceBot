@@ -1,24 +1,6 @@
 
 TOKEN = '5481293929:AAHhTw68wowVfCjKsT1krtz1f_ahfxDVfsk'
 
-# import requests
-# import bs4
-# from bs4 import BeautifulSoup as bs
-# b = bs
-# url = 'https://belarusbank.by/ru/fizicheskim_licam/valuta/kursy-valyut'
-# r = requests.get(url)
-# soup = bs4.BeautifulSoup(r.text, "html.parser")
-# print(soup.title)
-# # курс продаж
-# mags = soup.select('td')
-# print(mags[4])
-#
-#
-# import requests
-# data = requests.get('https://belarusbank.by/api/kursExchange?/latest.json?app_id=YOUR_APP_ID').json()
-# print(data[int()])
-
-
 import requests
 from bs4 import BeautifulSoup
 
